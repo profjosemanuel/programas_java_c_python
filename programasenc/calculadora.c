@@ -21,11 +21,9 @@ int main() {
             result = num1 * num2;
             break;
         case '/':
-            if (num2 == 0)   
- {
+            if (num2 == 0)  {
                 printf("Error: Division by zero is not allowed.\n");
-                return   
- 1; // Indicate an error
+                return  1; // Indicate an error
             }
             result = num1 / num2;
             break;
